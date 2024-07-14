@@ -1,0 +1,249 @@
+PODS:
+  - CenteredCollectionView (2.2.2)
+  - Cosmos (23.0.0)
+  - Firebase/Core (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (~> 9.5.0)
+  - Firebase/CoreOnly (9.5.0):
+    - FirebaseCore (= 9.5.0)
+  - Firebase/Messaging (9.5.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (~> 9.5.0)
+  - FirebaseAnalytics (9.5.0):
+    - FirebaseAnalytics/AdIdSupport (= 9.5.0)
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseAnalytics/AdIdSupport (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleAppMeasurement (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCore (9.5.0):
+    - FirebaseCoreDiagnostics (~> 9.0)
+    - FirebaseCoreInternal (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+  - FirebaseCoreDiagnostics (9.5.0):
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Logger (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - FirebaseCoreInternal (9.5.0):
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+  - FirebaseInstallations (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - PromisesObjC (~> 2.1)
+  - FirebaseMessaging (9.5.0):
+    - FirebaseCore (~> 9.0)
+    - FirebaseInstallations (~> 9.0)
+    - GoogleDataTransport (< 10.0.0, >= 9.1.4)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/Environment (~> 7.7)
+    - GoogleUtilities/Reachability (~> 7.7)
+    - GoogleUtilities/UserDefaults (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement (9.5.0):
+    - GoogleAppMeasurement/AdIdSupport (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/AdIdSupport (9.5.0):
+    - GoogleAppMeasurement/WithoutAdIdSupport (= 9.5.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleAppMeasurement/WithoutAdIdSupport (9.5.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 7.7)
+    - GoogleUtilities/MethodSwizzler (~> 7.7)
+    - GoogleUtilities/Network (~> 7.7)
+    - "GoogleUtilities/NSData+zlib (~> 7.7)"
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+  - GoogleDataTransport (9.2.0):
+    - GoogleUtilities/Environment (~> 7.7)
+    - nanopb (< 2.30910.0, >= 2.30908.0)
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/AppDelegateSwizzler (7.7.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (7.7.0):
+    - PromisesObjC (< 3.0, >= 1.2)
+  - GoogleUtilities/Logger (7.7.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (7.7.0):
+    - GoogleUtilities/Logger
+    - "GoogleUtilities/NSData+zlib"
+    - GoogleUtilities/Reachability
+  - "GoogleUtilities/NSData+zlib (7.7.0)"
+  - GoogleUtilities/Reachability (7.7.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (7.7.0):
+    - GoogleUtilities/Logger
+  - InputBarAccessoryView (5.5.0):
+    - InputBarAccessoryView/Core (= 5.5.0)
+  - InputBarAccessoryView/Core (5.5.0)
+  - IQKeyboardManagerSwift (6.5.10)
+  - JMMaskTextField (0.1.0)
+  - KeychainAccess (4.2.2)
+  - Kingfisher (7.6.2)
+  - LoadingShimmer (1.0.3)
+  - MessageKit (3.8.0):
+    - InputBarAccessoryView (~> 5.5.0)
+  - nanopb (2.30909.0):
+    - nanopb/decode (= 2.30909.0)
+    - nanopb/encode (= 2.30909.0)
+  - nanopb/decode (2.30909.0)
+  - nanopb/encode (2.30909.0)
+  - NotificationView (0.2.5)
+  - PanModal (1.2.7)
+  - PromiseKit (8.0.0):
+    - PromiseKit/CorePromise (= 8.0.0)
+    - PromiseKit/Foundation (= 8.0.0)
+    - PromiseKit/UIKit (= 8.0.0)
+  - PromiseKit/CorePromise (8.0.0)
+  - PromiseKit/Foundation (8.0.0):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (8.0.0):
+    - PromiseKit/CorePromise
+  - PromisesObjC (2.1.1)
+  - PryntTrimmerView (4.0.2)
+  - SDWebImage (5.13.2):
+    - SDWebImage/Core (= 5.13.2)
+  - SDWebImage/Core (5.13.2)
+  - Shuffle-iOS (0.5.0)
+  - SnapKit (5.6.0)
+  - SteviaLayout (4.7.3)
+  - SwiftVideoBackground (3.4.0)
+  - SwiftyMarkdown (1.2.4)
+  - Toast-Swift (5.0.1)
+  - UIActiveableLabel (1.0.0)
+  - Wormholy (1.6.5)
+  - YPImagePicker (5.2.1):
+    - PryntTrimmerView (= 4.0.2)
+    - SteviaLayout (= 4.7.3)
+  - ZLPhotoBrowser (4.3.6):
+    - ZLPhotoBrowser/Core (= 4.3.6)
+  - ZLPhotoBrowser/Core (4.3.6)
+
+DEPENDENCIES:
+  - CenteredCollectionView
+  - Cosmos (~> 23.0)
+  - Firebase/Core
+  - Firebase/Messaging
+  - IQKeyboardManagerSwift
+  - JMMaskTextField
+  - KeychainAccess
+  - Kingfisher (~> 7.6.1)
+  - LoadingShimmer
+  - MessageKit
+  - NotificationView
+  - PanModal
+  - PromiseKit (~> 8)
+  - SDWebImage (~> 5.0)
+  - Shuffle-iOS
+  - SnapKit (~> 5.6.0)
+  - SwiftVideoBackground
+  - SwiftyMarkdown
+  - Toast-Swift (~> 5.0.1)
+  - UIActiveableLabel
+  - Wormholy
+  - YPImagePicker
+  - ZLPhotoBrowser
+
+SPEC REPOS:
+  trunk:
+    - CenteredCollectionView
+    - Cosmos
+    - Firebase
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseCoreDiagnostics
+    - FirebaseCoreInternal
+    - FirebaseInstallations
+    - FirebaseMessaging
+    - GoogleAppMeasurement
+    - GoogleDataTransport
+    - GoogleUtilities
+    - InputBarAccessoryView
+    - IQKeyboardManagerSwift
+    - JMMaskTextField
+    - KeychainAccess
+    - Kingfisher
+    - LoadingShimmer
+    - MessageKit
+    - nanopb
+    - NotificationView
+    - PanModal
+    - PromiseKit
+    - PromisesObjC
+    - PryntTrimmerView
+    - SDWebImage
+    - Shuffle-iOS
+    - SnapKit
+    - SteviaLayout
+    - SwiftVideoBackground
+    - SwiftyMarkdown
+    - Toast-Swift
+    - UIActiveableLabel
+    - Wormholy
+    - YPImagePicker
+    - ZLPhotoBrowser
+
+SPEC CHECKSUMS:
+  CenteredCollectionView: a9217908a698c386cbb98af11b596da48900b908
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  Firebase: 800f16f07af493d98d017446a315c27af0552f41
+  FirebaseAnalytics: 1b60984a408320dda637306f3f733699ef8473d7
+  FirebaseCore: 25c0400b670fd1e2f2104349cd3b5dcce8d9418f
+  FirebaseCoreDiagnostics: 17cbf4e72b1dbd64bfdc33d4b1f07bce4f16f1d8
+  FirebaseCoreInternal: 50a8e39cae8abf72d5145d07ea34c3244f70862b
+  FirebaseInstallations: 41f811b530c41dd90973d0174381cdb3fcb5e839
+  FirebaseMessaging: 732623518591384f61c287e3d8f65294beb7ffb3
+  GoogleAppMeasurement: 6ee231473fbd75c11221dfce489894334024eead
+  GoogleDataTransport: 1c8145da7117bd68bbbed00cf304edb6a24de00f
+  GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
+  InputBarAccessoryView: 1d7b0a672b36e370f01f264b3907ef39d03328e3
+  IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
+  JMMaskTextField: ceb969a49a313663a041c6413a0284d921f65ba4
+  KeychainAccess: c0c4f7f38f6fc7bbe58f5702e25f7bd2f65abf51
+  Kingfisher: 6c5449c6450c5239166510ba04afe374a98afc4f
+  LoadingShimmer: dd681218498ec9648f572b845a7299b9c62e8e30
+  MessageKit: a1ba0c69ebead94029867853eb44dd05b9b3f453
+  nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
+  NotificationView: bcefe832af2bb65700406d0e4cb070cd9f433557
+  PanModal: 3e16ead1a907fb06f4df3f13492fd00149fa4974
+  PromiseKit: 7039707ba8764b6ce98501debce2489561b038a5
+  PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  PryntTrimmerView: 6a43cc90df5d99addeabd33d4ba09b1365322130
+  SDWebImage: 72f86271a6f3139cc7e4a89220946489d4b9a866
+  Shuffle-iOS: ff33658fb1e5eebd6a4724c156473e63754be9cb
+  SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
+  SteviaLayout: c2ecdcff57d44e38fd2f65e54ad52aeae28ca0c4
+  SwiftVideoBackground: 826e0567c737ded2a211aa309e9951c643695e8f
+  SwiftyMarkdown: 7cdec87c6ab5cd9ea0e22ced288e889960649ba5
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  UIActiveableLabel: a5bcfe52a8ab0578f5c7367d99083df94abbf8fe
+  Wormholy: 3252bc3e55a1847ef9a0976c1377bd77bf3635fa
+  YPImagePicker: f36043210c10b0783034eb1947d6e06e31c461e4
+  ZLPhotoBrowser: 332a6d3c43262bbfd1596a53f5bb9d060360d6b8
+
+PODFILE CHECKSUM: 4e211996dd4d6e86345af1a5a7be705ebe155167
+
+COCOAPODS: 1.13.0

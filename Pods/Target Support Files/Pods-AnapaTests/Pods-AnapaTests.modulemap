@@ -1,0 +1,6 @@
+framework module Pods_AnapaTests {
+  umbrella header "Pods-AnapaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

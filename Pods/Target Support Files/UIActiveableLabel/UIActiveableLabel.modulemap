@@ -1,0 +1,6 @@
+framework module UIActiveableLabel {
+  umbrella header "UIActiveableLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}
